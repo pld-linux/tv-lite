@@ -1,0 +1,11 @@
+--- tv-lite-0.7.6/src/sopprotocol.h~	2023-04-29 19:43:36.000000000 +0200
++++ tv-lite-0.7.6/src/sopprotocol.h	2024-12-22 00:56:28.183331132 +0100
+@@ -1,6 +1,8 @@
+ #ifndef CSOPPROTOCOL_H
+ #define CSOPPROTOCOL_H
+ 
++#include <cstdint>
++
+ #include "baseprotocol.h"
+ #include "sopthread.h"
+ 
