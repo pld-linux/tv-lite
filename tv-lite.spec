@@ -1,7 +1,7 @@
 Summary:	Easy to use IPTV, Sopcast, Acestream Player
 Name:		tv-lite
 Version:	0.7.6
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/Multimedia
 Source0:	https://gitlab.com/cburneci/tv-lite/-/archive/%{version}/%{name}-%{version}.tar.bz2
@@ -49,7 +49,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README.md
 %attr(755,root,root) %{_bindir}/TVLite
-%{_datadir}/TVLite/logo.png
+%{_datadir}/TVLite
 %{_desktopdir}/TVLite.desktop
 %{_pixmapsdir}/TVLite.png
 
